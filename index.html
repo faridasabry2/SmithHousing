@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smith Housing</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header>
+      <h1>Smith Housing</h1>
+    </header>
+    <div>
+      <aside>
+        <form>
+          <!-- Are of campus dropdown -->
+          <div>
+            <label for="category">Area of campus:</label>            
+            <select id="category">
+              <option selected>All</option>
+              <option>Green Street</option>
+              <option>Center Campus</option>
+              <option>East Quad</option>
+              <option>West Quad</option>
+              <option>Lower Elm Street</option>
+              <option>Upper Elm Street</option>
+            </select>
+          </div>
+
+          <!-- Capacity Range -->
+          <div>
+            <p id="rangeVal">Capacity: 0+</p>
+            <input type="range" min="0" max="100" value="0" step="10"/>
+          </div>
+
+          <!-- Search Box -->
+          <div>
+            <label for="searchTerm">Enter search query:</label>
+            <input type="text" id="searchTerm" placeholder="e.g. Chapin or 1880">
+          </div>
+
+          <div>
+            <button>Filter results</button>
+          </div>
+        </form>
+      </aside>
+      <main>
+
+      </main>
+    </div>
+    <footer>
+      <p class="copyright">Made with ♥ by <a href="http://faridasabry.com">Farida Sabry</a> | copyright © 2018</p>
+    </footer>
+    <script src="housing.js"></script>
+  </body>
+</html>

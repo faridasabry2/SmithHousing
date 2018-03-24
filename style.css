@@ -1,0 +1,203 @@
+/* General */
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  background: url(icons/logo.png) no-repeat 20% center, url(icons/logo.png) no-repeat 80% center;
+  font-size: 5rem;
+  background-size: 48px 48px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: black;
+  right: 4%;
+  z-index: 3000;
+  width: 100%;
+}
+
+p, label, input, select, button, li {
+  font-size: 1.5rem;
+}
+
+li {
+  line-height: 1.5;
+}
+
+/* block styling */
+header, aside, footer {
+  padding: 20px 20px;
+}
+
+main {
+  padding: 50px 30px;
+}
+
+header {
+  border: 5px solid black;
+  border-bottom: 0;
+}
+
+aside {
+  border-right: 5px solid black;
+}
+
+body > div {
+  border: 5px solid black;
+  display: flex;
+}
+
+footer {
+  border: 5px solid black;
+  border-top: 0;
+}
+
+aside {
+  flex: 1;
+}
+
+main {
+  flex: 9;
+}
+
+/* Form styling */
+aside {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+aside div {
+  margin-bottom: 20px;
+}
+
+label, select, input {
+  display: block;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+select, input, button {
+  width: 100%;
+}
+
+input {
+  background: black;
+  box-shadow: inset 1px 1px 1px white;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 201.5px;
+}
+
+button {
+  background: black;
+  color: white;
+  padding: 5px 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
+}
+
+/* Styling the houses */
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+section {
+  width: 45%;
+  margin-bottom: 30px;
+  position: relative;
+  height: auto;
+}
+
+section img {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: block;
+  position: absolute;
+}
+
+/* Hover effect */
+section:hover img {
+  opacity: 0.3;
+}
+
+section:hover .overlay {
+  opacity: 1;
+}
+
+section:hover .overlay img {
+  opacity: 1;
+}
+
+section:hover .overlay p {
+  opacity: 1;
+}
+
+/* Overlayed Info */
+.overlay {
+  opacity: 0;
+}
+
+.overlay h2 {
+  transition: .5s ease;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.text p {
+  position: relative;
+}
+
+img.accessible {
+  width: 50px;
+  margin: 10px 0px;
+}
+
+img.elevator {
+  height: 35px;
+  width: auto;
+  margin: 70px 13px;
+}
+
+/* Footer */
+.copyright {
+  left: 50%;
+  text-align: center;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: red;
+}

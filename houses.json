@@ -30,7 +30,22 @@
     "plan" : "https://www.smith.edu/reslife/floorplans/Cutter.pdf"
   },
   {
-    "name" : "Haven/Wesley",
+    "name" : "Haven",
+    "year_built" : 1899,
+    "year_renovated" : 2007,
+    "image" : "haven.jpg",
+    "area" : "Center Campus",
+    "capacity" : 71,
+    "singles" : 25,
+    "doubles": 23,
+    "triples" : 0,
+    "num_sharing_bathrm" : 23,
+    "accessible" : "yes",
+    "elevator" : "no",
+    "plan" : "https://www.smith.edu/reslife/floorplans/Haven.pdf"
+  },
+    {
+    "name" : "Wesley",
     "year_built" : 1899,
     "year_renovated" : 2007,
     "image" : "wesley.jpg",
@@ -42,7 +57,7 @@
     "num_sharing_bathrm" : 23,
     "accessible" : "yes",
     "elevator" : "no",
-    "plan" : "https://www.smith.edu/reslife/floorplans/Haven.pdf"
+    "plan" : "https://www.smith.edu/reslife/floorplans/Wesley.pdf"
   },
   {
     "name" : "Hopkins",
